@@ -1,4 +1,4 @@
 # Question12
 Describle the video segmentation 
 
-The method used is YOLACT, it was the instance segmentation in the video recognition. The YOLACT used the COCO 2017 dataset and used the trained weight as yolact_resnet50_54_800000.pth which using the resnet-50 to executive the process. this process is very lightweight though the Google Colaboratory and around 27.1FPS during the process. The person was segmented and detect right label on the video, but the limitation for the segmentation was mention as not continous show on the video. 
+Segmentation was applied in the video recognition process using the YOLACT approach. The trained weight used by the YOLACT was yolact resnet50 54 800000.pth, and it was applied to the COCO 2017 dataset. Through the Google Colaboratory, this process is quite quick and averages 27.1 frames per second. On the video, the subject was segmented and the appropriate label could be seen, however the segmentation's limitations were noted as not being continuously visible. 
